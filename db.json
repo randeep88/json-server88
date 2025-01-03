@@ -1,12 +1,114 @@
 {
-  "apiEndpoint" : [
+  "questions": [
     {
-      "name" : "UMA",
-      "skills" : ["javaScript", "node.js", "react.js"]
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
     },
     {
-      "name":"RADHA",
-      "skills" : ["Adobe Illustrator", "Adobe After effects"]
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What is JSX?",
+      "options": ["JavaScript XML", "JSON XML", "Java XML", "JavaScript Extended"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the command to create a new React app?",
+      "options": ["npm init react", "npx create-react-app", "npm install react", "npx react-init"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which hook is used to manage state in functional components?",
+      "options": ["useEffect", "useState", "useReducer", "useMemo"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the default port for React development server?",
+      "options": ["3000", "5000", "8000", "8080"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does useEffect do?",
+      "options": [
+        "Manages local state",
+        "Performs side effects",
+        "Optimizes performance",
+        "Manages refs"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "How do you pass data from parent to child component?",
+      "options": ["State", "Props", "Context", "Refs"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is React.Fragment used for?",
+      "options": ["Styling", "Wrapping multiple elements", "Managing state", "Side effects"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which hook is used for context API?",
+      "options": ["useContext", "useReducer", "useState", "useEffect"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of keys in React lists?",
+      "options": ["Styling", "Performance optimization", "Uniquely identify elements", "Event handling"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What does 'lifting state up' mean?",
+      "options": [
+        "Moving state to a higher-level component",
+        "Using global state",
+        "Passing state down via props",
+        "Optimizing performance"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How do you create a ref in React?",
+      "options": ["useRef()", "createRef()", "useState()", "useEffect()"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does ReactDOM.render do?",
+      "options": [
+        "Updates the DOM",
+        "Renders a React component to the DOM",
+        "Adds event listeners",
+        "Initializes React"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of React Router?",
+      "options": [
+        "To manage global state",
+        "To handle HTTP requests",
+        "To handle navigation",
+        "To create animations"
+      ],
+      "correctOption": 2,
+      "points": 10
     }
   ]
 }
